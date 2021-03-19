@@ -46,7 +46,7 @@ a {
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /* features-list */
