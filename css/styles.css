@@ -7,11 +7,11 @@ body {
   letter-spacing: 0.03em;
 }
 /* можно еще создать в body {font size14px} */
-ul {
+.list {
   list-style: none;
 }
 
-a {
+.link-line {
   text-decoration: none;
 }
 /* header */
