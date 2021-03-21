@@ -7,15 +7,16 @@ body {
   letter-spacing: 0.03em;
 }
 /* можно еще создать в body {font size14px} */
+.link-line {
+  text-decoration: none;
+}
 .list {
   list-style: none;
 }
 
-.link-line {
+.list a {
   text-decoration: none;
 }
-/* также можно сделать .list a { text-decoration: none;} */
-/* header */
 
 .page-header {
   background-color: var(--background-white);
