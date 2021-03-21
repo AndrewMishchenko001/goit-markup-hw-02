@@ -14,7 +14,9 @@ body {
 .link-line {
   text-decoration: none;
 }
+/* также можно сделать .list a { text-decoration: none;} */
 /* header */
+
 .page-header {
   background-color: var(--background-white);
 }
