@@ -6,6 +6,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+/* можно еще создать в body {font size14px} */
 ul {
   list-style: none;
 }
@@ -109,6 +110,11 @@ a {
   line-height: 1.17;
   text-align: center;
 }
+/* Section team */
+
+.section-team {
+  background-color: var(--background-button);
+}
 
 .team-list .names {
   color: var(--title-text-color);
@@ -129,6 +135,11 @@ a {
 .button {
   color: var(--title-text-color);
   background-color: var(--background-button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button:focus,
 .button:hover {
@@ -138,7 +149,6 @@ a {
 
 .hero-button {
   font-family: inherit;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -179,4 +189,22 @@ a {
 .contacts-footer a:focus,
 .contacts-footer a:hover {
   color: var(--accent-color);
+}
+
+/* Страница портфолио */
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
