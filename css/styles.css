@@ -52,7 +52,7 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
 
   font-weight: 500;
   font-size: 14px;
@@ -70,7 +70,7 @@ body {
 /* auth-nav */
 .auth-nav .link {
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
 
   font-weight: 500;
   font-size: 14px;
@@ -90,7 +90,7 @@ body {
 
 .hero-title {
   color: var(--white-color);
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -103,7 +103,7 @@ body {
 
 .features-title {
   color: var(--title-text-color);
-  font-family: Roboto;
+  font-family: Roboto,sans-serif
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -111,7 +111,7 @@ body {
 }
 
 .features-text {
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -120,7 +120,7 @@ body {
 
 .second-title {
   color: var(--title-text-color);
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -196,7 +196,7 @@ body {
 
 .contacts-footer,
 .text-footer {
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
